@@ -17,3 +17,9 @@ Having run Main.hs, you will be asked for a text file containing your lexicon, a
 
      c
 ```
+
+If you have [Nix](https://nixos.org/) installed, you can test the parser out in a nix shell by entering the cloned directory and running:
+
+```
+    nix-shell --pure shell.nix --run "cabal repl"
+```

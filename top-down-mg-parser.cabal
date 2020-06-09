@@ -2,7 +2,7 @@ name:                top-down-mg-parser
 version:             0.1.0.0
 -- synopsis:
 -- description:
-homepage:            https://github.com/githubuser/top-down-mg-parser#readme
+homepage:            https://github.com/juliangrove/top-down-mg-parser#readme
 author:              Julian Grove
 maintainer:          julian.grove@gmail.com
 category:            Web
