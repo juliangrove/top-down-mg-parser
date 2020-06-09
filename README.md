@@ -22,5 +22,6 @@ If you have [Nix](https://nixos.org/) installed, you can test the parser out in 
 
 ```
     nix-shell --pure shell.nix --run "cabal repl"
+	
 	main
 ```
