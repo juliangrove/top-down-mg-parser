@@ -73,7 +73,7 @@ possibleFeats lex = [ f | e <- lex, f <- feats e ]
 -- | Get a list of the suffixes of a list.
 getSuffixes :: [a] -> [[a]]
 getSuffixes [] = []
-getSuffixes l = [last l] : map (++ [last l]) (getSuffixes $ init l)
+getSuffixes (x:xs) = (x:xs) : getSuffixes xs
 
 -- | Get a list of the suffixes of feature sequences from the lexicon.
 featSuffixes :: Lexicon -> [[Feat]]
